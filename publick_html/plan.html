@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <!--
-   plan.html
+   Plan.html
 -->
 
 <head>
@@ -10,57 +10,65 @@
 </head>
 
 <body>
+    <div>
+        <a href="index.html">Strona główa</a>
+        <a href="listy.html">Listy</a>
+        <a href="plan.html">Plan</a>
+        <a href="specjale/klasa1a.html">Klasa 1A</a>
+    </div>
+    
     <h1>Plan lekcji</h1>
     <h2>Klasa 1A</h2>
-    <p>To jest główny tekst na stronie.<br> 
-    Plan lekcji!</p>
-    <p>Załączniki tworzące tabelę :)</p>
+    <p>To jest główny tekst na stonie.<br>
+    Dziś zrobimy ładny tabelkowy plan lekcji :)</p>
+    <p>Zaraz poznamy znaczniki tworzące tabelę :)</p>
     
-    <table border="2" cellpadding="4" cellspacing="3" width="100%">
-        <caption>Plan lekcji 1A<caption>
+    <table border="2"cellpadding="4" cellspacing="3" width="80%">
+        <caption>Plan lekcji 1A</caption>
         <thead>
-            <tr>
-                <th>Nr.</th>
-                <th>Godz</th>
-                <th>Poniedziałek</th>   
-                <th>Wtorek</th>
-                <th>Środa</th>   
-                <th>Czwartek</th>
-                <th>Piątek</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>7:10-7:55</td>
-                <td>fizyka</td>
-                <td>Wos</td>
-                <td>Informatyka</td>   
-                <td>Religia</td>
-                <td>J.polski</td>  
-            </tr>
-                <thead>
-                <tfoot>
-                <tbody>
-            <tr>
+        <tr>
+            <th>Nr.</th>
+            <th>Godz</th>
+            <th>Poniedziałek</th>
+            <th>Wtorek</th>
+            <th>Środa</th>
+            <th>Czwartek</th>
+            <th>Piątek</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tbody>
+        </tfoot>
+        <tr>
+            <td>1</td>
+            <td align="center">7:10-7:55</td>
+            <td>Fizyka</td>
+            <td>Wos</td>
+            <td>Infomatyka</td>
+            <td>Religia</td>
+            <td>J.polski</td>
+        </tr>
+        </tbody>
+        <tr>
                 <td colspan="5">To jest stopka tabeli – 5 kolumn</td>
                 <td colspan="2">Dwie kolumny</td>
             </tr>
-            </tfoot>
-            <border="2" cellpadding="4" cellspacing="3" width="80%">
-                <caption>Łączenie komórek i wierszy</caption>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td rowspan="2">3</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>    
-            </table>        
+    </table>
+    <table border="2"cellpadding="4" cellspacing="3" width="80%">
+        <caption>Łączenie komórek i wierszy</caption>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" valign="top" align="center" >4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="2">6</td>
+        </tr>
+    </table>
 </body>
-
-
-
-
 
 </html>
